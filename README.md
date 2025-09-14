@@ -2,7 +2,7 @@
 This project implements a Deep Reinforcement Learning (DRL) agent to predict the outcome of soccer matches by processing sequences of in-game events step by step.
 Unlike traditional supervised learning approaches that rely on aggregated match statistics, this agent learns to anticipate the final result (win/draw/loss) dynamically as new events occur during the game.
 
-## 📌 Project Objectives
+##  Project Objectives
 
 Perform exploratory data analysis (EDA) on the soccer event dataset.
 
