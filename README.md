@@ -122,7 +122,7 @@ Model architecture
 
 Training results & analysis
 
-🔮 Future Work
+## 🔮 Future Work
 
 Enrich state space with additional features (event type, player, time).
 
