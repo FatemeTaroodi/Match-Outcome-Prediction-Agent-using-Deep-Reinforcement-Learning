@@ -16,7 +16,7 @@ Analyze results and demonstrate how the agent’s accuracy improves as it observ
 
 ## 📌 Repository Structure
 
-# RL-Code/ → Source code (data preparation, custom SoccerMatchEnv, DQN agent, training loop, results analysis).
+RL-Code/ → Source code (data preparation, custom SoccerMatchEnv, DQN agent, training loop, results analysis).
 
 SoccerMatchEnv.ipynb → Jupyter notebook for demonstration and testing.
 
