@@ -1,8 +1,8 @@
-# Match-Outcome-Prediction-Agent-using-Deep-Reinforcement-Learning
+## ⚽Match-Outcome-Prediction-Agent-using-Deep-Reinforcement-Learning
 This project implements a Deep Reinforcement Learning (DRL) agent to predict the outcome of soccer matches by processing sequences of in-game events step by step.
 Unlike traditional supervised learning approaches that rely on aggregated match statistics, this agent learns to anticipate the final result (win/draw/loss) dynamically as new events occur during the game.
 
-📌 Project Objectives
+## 📌 Project Objectives
 
 Perform exploratory data analysis (EDA) on the soccer event dataset.
 
@@ -12,7 +12,7 @@ Train and evaluate a DRL model (Deep Q-Network - DQN).
 
 Analyze results and demonstrate how the agent’s accuracy improves as it observes more events.
 
-📊 Dataset
+## 📊 Dataset
 
 The project uses the Soccer Match Event Dataset, which includes:
 
@@ -28,7 +28,7 @@ A new column match_outcome was added to each match:
 
 2 → Team 2 Win
 
-🏗️ Environment: SoccerMatchEnv
+## 🏗️ Environment: SoccerMatchEnv
 
 State Space: A 4D vector representing the normalized start and end positions of each event (x, y).
 
@@ -48,7 +48,7 @@ Incorrect prediction → -1
 
 Episode: A full match simulation, where the agent receives events sequentially until the game ends.
 
-🤖 Model: Deep Q-Network (DQN)
+## 🤖 Model: Deep Q-Network (DQN)
 
 Architecture:
 
@@ -70,7 +70,7 @@ Loss: Smooth L1 Loss (Huber Loss)
 
 Optimizer: AdamW
 
-⚙️ Experiment Results
+## ⚙️ Experiment Results
 Initial Test (default hyperparameters)
 
 High fluctuations, unstable learning
@@ -89,7 +89,7 @@ Soft target update (tau = 0.005)
 
 Episodes = 600 (analyzed up to episode 337)
 
-📈 Results:
+## 📈 Results:
 
 Convergence observed after ~260 episodes
 
@@ -98,7 +98,7 @@ Average reward ~500 (stable)
 Prediction accuracy: 90–100% in later episodes
 
 
-📚 Dependencies
+## 📚 Dependencies
 
 Python 3.10+
 
@@ -110,7 +110,7 @@ Pandas, Matplotlib, Seaborn
 
 Kaggle API
 
-📑 Report in persion
+## 📑 Report in persion
 
 A detailed PDF report is included, covering:
 
