@@ -12,6 +12,22 @@ Train and evaluate a DRL model (Deep Q-Network - DQN).
 
 Analyze results and demonstrate how the agent’s accuracy improves as it observes more events.
 
+
+
+## 📌 Repository Structure
+
+# RL-Code/ → Source code (data preparation, custom SoccerMatchEnv, DQN agent, training loop, results analysis).
+
+SoccerMatchEnv.ipynb → Jupyter notebook for demonstration and testing.
+
+README.md → Project documentation (this file).
+
+training_results_final.csv → Saved training results (reward history, accuracy).
+
+Sequential Prediction of Football Match Outcomes Using Deep Reinforcement Learning.docx → Code explanation and detailed report.
+
+project.pdf → Exercise 3 solution (separate from the main project).
+
 ## 📊 Dataset
 
 The project uses the Soccer Match Event Dataset, which includes:
