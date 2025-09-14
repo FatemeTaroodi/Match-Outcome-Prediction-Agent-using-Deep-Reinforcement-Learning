@@ -98,33 +98,6 @@ Average reward ~500 (stable)
 Prediction accuracy: 90–100% in later episodes
 
 
-🚀 How to Run
-
-Clone the repository:
-
-git clone https://github.com/username/match-outcome-prediction.git
-cd match-outcome-prediction
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Prepare dataset (via Kaggle API):
-
-python data_preparation.py
-
-
-Train the model:
-
-python train.py
-
-
-Analyze results:
-
-python results_analysis.py
-
 📚 Dependencies
 
 Python 3.10+
